@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <h1 class="mainHeadline"><a href="/">Posts feed</a></h1>
+    <div class="controls">
+        <div class="searchInner">
+          <input type="search" id="searchInput" placeholder="Search...">
+        </div>
+        <div class="select">
+          <select class="selectUser">
+            <option value="all">All users</option>
+          </select>
+          <button id="resetFilterBtn">Reset filter</button>
+        </div>
+      </div>
+      <div class="form">
+        <form id="formPost">
+          <select class="postAuthorSelect">
+            <option value="all">All authors</option>
+          </select>
+        <input type="text" id="titleInput" placeholder="Post title" name="post title" required />
+        <textarea type="text" id="textArea" placeholder="Post text" name="post text" required></textarea>
+        <button type="submit" id="addPostBtn">Add post</button>
+      </form>
+      </div>
+    <div class="parent">
+      <div class="postsContainer"></div>
+      <div class="postSingleView"></div>
+    </div>
+  </body>
+  <script src="/scripts/script.js"></script>
+</html>

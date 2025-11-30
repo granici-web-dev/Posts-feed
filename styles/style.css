@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #4000ff;
+}
+
+.mainHeadline {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.mainHeadline > a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.parent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.postCard{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 650px;
+  width: 100%;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.postTitle{
+  cursor: pointer;
+}
+
+.postTitle:hover {
+  color: #4000ff;
+}
+
+.postSingleView{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 650px;
+  width: 100%;
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.commentsContainer{
+  border-top: 1px solid lightgrey;
+  padding-top: 16px;
+  margin-top: 16px;
+}
+
+.commentItem{
+  background-color: #ececec;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.postDescription{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.backBtn{
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: none;
+  color: #fff;
+  background-color: #4000ff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.backBtn:hover{
+  background-color: #2c03a6;
+}
+
+.readMoreBtn{
+  background-color: #4000ff;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.readMoreBtn:hover {
+  background-color: #2c03a6;
+}
+
+.controls {
+  display: flex;
+  max-width: 650px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.selectUser{
+  padding: 8px 8px;
+}
+
+#searchInput{
+  padding: 8px 8px;
+  max-width: 450px;
+  width: 100%;
+}
+
+#resetFilterBtn{
+  padding: 8px 16px;
+  border: none;
+  background-color: #00ebc0;
+}
+
+.form{
+  max-width: 650px;
+  margin: 24px auto;
+}
+
+#formPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+#textArea {
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.postAuthorSelect{
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;;
+}
+
+#textArea::placeholder {
+  color: #000;
+  font-size: 14px;
+}
+
+#titleInput {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+
+#titleInput::placeholder {
+  color: #000;
+  font-size: 14px;
+}
+
+#addPostBtn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #31ffb3;
+}
+
+#addPostBtn:hover{
+  background-color: #1ad892;
+}
