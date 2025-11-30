@@ -1,4 +1,4 @@
-# Posts-feed
+# Posts-feed - this is an educational project at ICH-IT Career Hub school
 The application should display a list of posts, allow filtering them by author, view individual posts with comments, and ‘create’ new posts.
 
 Technical requirements:
